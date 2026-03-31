@@ -1,0 +1,6 @@
+Model,Metric,Value
+KMeans,Silhouette Score,0.4848
+RandomForest,Accuracy,1.0
+RandomForest,Precision,1.0
+RandomForest,Recall,1.0
+RandomForest,F1 Score,1.0
