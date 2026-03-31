@@ -1,0 +1,30 @@
+pyspark==3.5.0
+findspark
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+```
+
+**`.gitignore`** — create this file so Git ignores big files:
+```
+# Raw dataset
+data/
+
+# Spark processed files
+processed/
+
+# Trained models
+models/
+
+# Large output files
+outputs/final_genomic_dataset/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
